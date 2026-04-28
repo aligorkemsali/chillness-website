@@ -35,7 +35,7 @@ export default function About() {
         <div className="md:col-span-7 space-y-8 md:pt-10">
           <p className="text-2xl md:text-3xl font-display leading-[1.3] text-sand/95">
             Picture yourself surrounded by sandy beaches, starlit skies, and
-            the company of kindred spirits. From chilling under the sunset to
+            the company of kindred spirits. From chilling under the sea to
             dancing through the night, every moment promises to be a
             treasure.
           </p>

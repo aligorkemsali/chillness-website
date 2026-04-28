@@ -57,7 +57,7 @@ export default function Navbar() {
 
         <a
           href="mailto:chillness@esnturkey.org"
-          className="group relative inline-flex items-center gap-2 px-4 md:px-5 py-2 md:py-2.5 rounded-full border border-sunset/70 text-sunset hover:bg-sunset hover:text-deep transition-all text-xs md:text-sm uppercase tracking-[0.2em]"
+          className="group relative inline-flex items-center gap-2 px-4 md:px-5 py-2 md:py-2.5 rounded-full border border-sunset/70 text-sunset font-bold hover:bg-sunset hover:text-[#166954] transition-all text-xs md:text-sm uppercase tracking-[0.2em]"
         >
           Reach Us
           <span className="inline-block transition-transform group-hover:translate-x-0.5">
