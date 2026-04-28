@@ -29,7 +29,7 @@ export default function Countdown() {
 
     return (
         <div
-            className="absolute left-[40%] top-[29%] -translate-y-1/2 z-10 hidden md:flex flex-row items-center gap-4 select-none pointer-events-none"
+            className="absolute left-[42%] top-[24%] -translate-y-1/2 z-10 hidden md:flex flex-row items-center gap-4 select-none pointer-events-none"
             style={{ opacity: 0.2 }}
         >
             {(["days", "hours", "minutes", "seconds"] as const).map((unit, i) => (

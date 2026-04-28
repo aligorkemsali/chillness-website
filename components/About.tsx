@@ -35,14 +35,14 @@ export default function About() {
         <div className="md:col-span-7 space-y-8 md:pt-10">
           <p className="text-2xl md:text-3xl font-display leading-[1.3] text-sand/95">
             Picture yourself surrounded by sandy beaches, starlit skies, and
-            the company of kindred spirits. From beachside bonfires to
+            the company of kindred spirits. From chilling under the sunset to
             captivating live performances, every moment promises to be a
             treasure.
           </p>
           <p className="text-lg md:text-xl text-sand/70 leading-relaxed max-w-xl">
             Whether you're seeking adventure or simply craving some chill
-            time, Chill'Ness has it all. This year we're celebrating ten
-            editions — a decade of summers, friendships, and waves we've
+            time, Chill'Ness has it all. This year we're celebrating tenth
+            edition — a decade of summers, friendships, and waves we've
             been chasing together.
           </p>
 

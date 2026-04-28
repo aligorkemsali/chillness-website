@@ -11,13 +11,13 @@ const performers: Performer[] = [
   {
     name: "Berkutay Öztürk",
     role: "DJ — Performer",
-    image: "/img/performer/3.svg",
+    image: "/img/performer/berkutay.jpeg",
     instagram: "https://www.instagram.com/berkutayozturk07",
   },
   {
     name: "Salih Çabuk",
     role: "DJ — Performer",
-    image: "/img/performer/4.svg",
+    image: "/img/performer/salih.jpeg",
     instagram: "https://www.instagram.com/salihcabuuk",
   },
 ];
@@ -76,7 +76,7 @@ function PerformerCard({
       rel="noopener noreferrer"
       className="group block"
     >
-      <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-sea">
+      <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-[#166954]">
         <Image
           src={performer.image}
           alt={performer.name}
@@ -84,7 +84,7 @@ function PerformerCard({
           sizes="(max-width: 768px) 100vw, 50vw"
           className="object-cover transition-transform duration-700 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-deep via-deep/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-sea via-[#166954]/30 to-transparent" />
         <div className="absolute top-6 left-6 right-6 flex justify-between items-start text-sand/80 font-mono text-xs uppercase tracking-[0.2em]">
           <span>0{index + 1}</span>
           <span className="opacity-0 group-hover:opacity-100 transition-opacity">

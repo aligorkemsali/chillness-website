@@ -39,7 +39,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl w-full mx-auto px-6 md:px-10">
         <div className="flex flex-col gap-6 md:gap-8">
-          <div className="flex items-center gap-4 text-xs md:text-sm uppercase tracking-[0.3em] text-sand/70 font-mono animate-fade-up">
+          <div className="flex items-center gap-4 text-xs md:text-xs uppercase tracking-[0.3em] text-sand/70 font-mono animate-fade-up">
             <span className="w-10 h-px bg-sand/40" />
             ESN Türkiye presents
           </div>
@@ -48,10 +48,10 @@ export default function Hero() {
             className="font-display italic font-black tracking-[-0.02em] leading-[0.85] animate-fade-up"
             style={{ animationDelay: "0.1s" }}
           >
-            <span className="block text-[18vw] md:text-[12vw] lg:text-[11rem]">
+            <span className="block text-[18vw] md:text-[12vw] lg:text-[9rem]">
               Chill<span className="text-sunset">'</span>Ness
             </span>
-            <span className="block text-[8vw] md:text-[5.5vw] lg:text-7xl text-sand/90 mt-2">
+            <span className="block text-[8vw] md:text-[5.5vw] lg:text-5xl text-sand/90 mt-2">
               The Tenth Wave
             </span>
           </h1>
@@ -81,7 +81,7 @@ export default function Hero() {
                 Spirit
               </div>
               <div className="font-display italic text-2xl md:text-3xl">
-                Wild & Free
+                We Are One
               </div>
             </div>
           </div>

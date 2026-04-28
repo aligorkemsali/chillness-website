@@ -18,10 +18,10 @@ export default function CTA() {
           spots, unlimited stories.
         </p>
         <a
-          href="mailto:chillness@esnturkey.org"
-          className="group inline-flex items-center gap-3 px-10 py-5 rounded-full bg-[#2f5233] text-sunset font-semibold uppercase tracking-[0.25em] text-sm hover:bg-ink transition-colors"
+          href="https://www.instagram.com/esnturkiyechillness/"
+          className="group inline-flex items-center gap-3 px-10 py-5 rounded-full bg-[#2f5233] text-sunset font-semibold uppercase tracking-[0.25em] text-sm hover:bg-ink transition-colors" target="_blank" rel="noopener noreferrer"
         >
-          chillness@esnturkey.org
+          @esnturkiyechillness
           <span className="transition-transform group-hover:translate-x-1">
             →
           </span>
