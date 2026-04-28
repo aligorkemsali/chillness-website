@@ -40,12 +40,12 @@ export default function Footer() {
             Follow
           </div>
           <a
-            href="https://www.instagram.com/esnturkiyechillness/"
+            href="https://www.instagram.com/esnturkiye.events/"
             target="_blank"
             rel="noopener noreferrer"
             className="block font-display italic text-xl md:text-2xl hover:text-sunset transition-colors"
           >
-            @esnturkiyechillness ↗
+            @esnturkiye.events ↗
           </a>
         </div>
       </div>

@@ -18,10 +18,10 @@ export default function CTA() {
           spots, unlimited stories.
         </p>
         <a
-          href="https://www.instagram.com/esnturkiyechillness/"
+          href="https://www.instagram.com/esnturkiye.events/"
           className="group inline-flex items-center gap-3 px-10 py-5 rounded-full bg-[#2f5233] text-sunset font-semibold uppercase tracking-[0.25em] text-sm hover:bg-ink transition-colors" target="_blank" rel="noopener noreferrer"
         >
-          @esnturkiyechillness
+          @esnturkiye.events
           <span className="transition-transform group-hover:translate-x-1">
             →
           </span>

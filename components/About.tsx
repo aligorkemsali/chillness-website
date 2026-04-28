@@ -36,12 +36,12 @@ export default function About() {
           <p className="text-2xl md:text-3xl font-display leading-[1.3] text-sand/95">
             Picture yourself surrounded by sandy beaches, starlit skies, and
             the company of kindred spirits. From chilling under the sunset to
-            captivating live performances, every moment promises to be a
+            dancing through the night, every moment promises to be a
             treasure.
           </p>
           <p className="text-lg md:text-xl text-sand/70 leading-relaxed max-w-xl">
             Whether you're seeking adventure or simply craving some chill
-            time, Chill'Ness has it all. This year we're celebrating tenth
+            time, Chill'Ness has it all. This year we're celebrating the tenth
             edition — a decade of summers, friendships, and waves we've
             been chasing together.
           </p>
@@ -57,7 +57,7 @@ export default function About() {
             </div>
             <p className="text-sand/80 mb-6 max-w-md">
               Reserve your spot today and let the countdown to an
-              unforgettable experience begin. ☀️ 🏖️
+              unforgettable experience begin.
             </p>
             <a
               href="mailto:chillness@esnturkey.org"
