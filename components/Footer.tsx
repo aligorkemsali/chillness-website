@@ -31,7 +31,7 @@ export default function Footer() {
             Where
           </div>
           <div className="font-display italic text-2xl md:text-3xl">
-            İzmir, Türkiye
+            Eski Foça, İzmir
           </div>
         </div>
 

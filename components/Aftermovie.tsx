@@ -2,7 +2,7 @@ export default function Aftermovie() {
   return (
     <section
       id="aftermovie"
-      className="relative py-24 md:py-40 px-6 md:px-10 bg-gradient-to-b from-[#166954] to-[#94c973] overflow-hidden"
+      className="relative py-24 md:py-40 px-6 md:px-10 bg-gradient-to-b from-[#2f5233] to-[#94c973] overflow-hidden"
     >
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
