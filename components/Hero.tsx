@@ -1,9 +1,13 @@
 "use client";
 
+import { useState } from "react";
 import Countdown from "./Countdown";
+import ContactModal from "./ContactModal";
 
 export default function Hero() {
+  const [modalOpen, setModalOpen] = useState(false);
   return (
+    <>
     <section
       id="top"
       className="relative min-h-screen overflow-hidden grain flex items-end pt-18 pb-12"
@@ -91,15 +95,15 @@ export default function Hero() {
             style={{ animationDelay: "0.5s" }}
           >
 
-            <a
-              href="mailto:chillness@esnturkey.org"
+            <button
+              onClick={() => setModalOpen(true)}
               className="group inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-sunset text-deep font-semibold uppercase tracking-[0.2em] text-sm hover:bg-sand transition-colors"
             >
               Reach Us
               <span className="transition-transform group-hover:translate-x-1">
                 →
               </span>
-            </a>
+            </button>
 
             <a
               href="#about"
@@ -109,7 +113,9 @@ export default function Hero() {
             </a>
           </div>
         </div>
-      </div >
-    </section >
+      </div>
+    </section>
+    {modalOpen && <ContactModal onClose={() => setModalOpen(false)} />}
+    </>
   );
 }

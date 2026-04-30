@@ -26,13 +26,13 @@ export default function Performers() {
   return (
     <section
       id="performers"
-      className="relative py-24 md:py-40 px-6 md:px-10 bg-gradient-to-b from-[#166954] to-[#2f5233] overflow-hidden"
+      className="relative py-24 md:py-40 px-6 md:px-10 bg-gradient-to-b from-[#2f5233] to-[#166954] overflow-hidden"
     >
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16 md:mb-24">
           <div>
             <div className="text-xs uppercase tracking-[0.3em] text-sunset font-mono mb-6">
-              [ 02 / Lineup ]
+
             </div>
             <h2 className="font-display italic text-6xl md:text-8xl leading-[0.9]">
               The

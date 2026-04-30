@@ -3,9 +3,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import ContactModal from "./ContactModal";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [modalOpen, setModalOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -15,6 +17,7 @@ export default function Navbar() {
   }, []);
 
   return (
+    <>
     <header
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${scrolled
         ? "bg-[#166954]/85 backdrop-blur-md border-b border-sand/10"
@@ -55,16 +58,18 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <a
-          href="mailto:chillness@esnturkey.org"
+        <button
+          onClick={() => setModalOpen(true)}
           className="group relative inline-flex items-center gap-2 px-4 md:px-5 py-2 md:py-2.5 rounded-full border border-sunset/70 text-sunset font-bold hover:bg-sunset hover:text-[#166954] transition-all text-xs md:text-sm uppercase tracking-[0.2em]"
         >
           Reach Us
           <span className="inline-block transition-transform group-hover:translate-x-0.5">
             →
           </span>
-        </a>
+        </button>
       </nav>
     </header>
+    {modalOpen && <ContactModal onClose={() => setModalOpen(false)} />}
+    </>
   );
 }

@@ -4,7 +4,7 @@ export default function CTA() {
       <div className="absolute inset-0 grain pointer-events-none" />
       <div className="relative max-w-7xl mx-auto text-center">
         <div className="text-xs uppercase tracking-[0.3em] font-mono mb-6 text-deep/70">
-          [ 06 / Join ]
+
         </div>
         <h2 className="font-display italic text-7xl md:text-[10rem] leading-[0.85] mb-10">
           Dive into

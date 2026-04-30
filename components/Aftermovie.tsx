@@ -7,7 +7,7 @@ export default function Aftermovie() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <div className="text-xs uppercase tracking-[0.3em] text-sunset font-mono mb-6">
-            [ 05 / Watch ]
+
           </div>
           <h2 className="font-display italic text-6xl md:text-8xl leading-[0.9]">
             After<span className="text-sunset">movie</span>
