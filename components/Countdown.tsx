@@ -16,6 +16,40 @@ function getTimeLeft(): TimeLeft {
     };
 }
 
+export function MobileCountdown() {
+    const [time, setTime] = useState<TimeLeft | null>(null);
+
+    useEffect(() => {
+        setTime(getTimeLeft());
+        const id = setInterval(() => setTime(getTimeLeft()), 1000);
+        return () => clearInterval(id);
+    }, []);
+
+    const display = time ?? { days: 0, hours: 0, minutes: 0, seconds: 0 };
+
+    return (
+        <div className="md:hidden py-4">
+            <div className="flex items-center justify-center gap-3">
+                {(["days", "hours", "minutes", "seconds"] as const).map((unit, i) => (
+                    <div key={i} className="flex items-center gap-3">
+                        <div className="flex flex-col items-center">
+                            <span className="font-display italic font-black text-sand text-3xl numeral leading-none">
+                                {String(display[unit]).padStart(2, "0")}
+                            </span>
+                            <span className="font-mono uppercase tracking-[0.2em] text-sand/50 text-[9px] mt-1">
+                                {unit}
+                            </span>
+                        </div>
+                        {i < 3 && (
+                            <span className="font-display font-black text-sand/40 text-2xl mb-3">:</span>
+                        )}
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
+}
+
 export default function Countdown() {
     const [time, setTime] = useState<TimeLeft | null>(null);
 

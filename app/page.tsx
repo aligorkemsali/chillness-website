@@ -16,7 +16,6 @@ export default function Home() {
       <Marquee />
       <About />
       <Activities />
-      <Performers />
       <Aftermovie />
       <CTA />
       <Footer />
