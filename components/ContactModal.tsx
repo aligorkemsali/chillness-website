@@ -73,7 +73,7 @@ export default function ContactModal({
                 Name
               </label>
               <input
-                name="from_name"
+                name="name"
                 type="text"
                 required
                 placeholder="Your name"
@@ -86,7 +86,7 @@ export default function ContactModal({
                 Email
               </label>
               <input
-                name="from_email"
+                name="email"
                 type="email"
                 required
                 placeholder="your@email.com"
